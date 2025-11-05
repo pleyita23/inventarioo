@@ -1,9 +1,9 @@
 <?php
 session_start();
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'inventario');
+define('DB_HOST', 'mysql-pleya.alwaysdata.net');
+define('DB_USER', 'pleya');
+define('DB_PASS', 'Misifu123+');
+define('DB_NAME', 'pleya_envios');
 
 function db_connect() {
     $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
